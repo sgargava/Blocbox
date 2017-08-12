@@ -138,7 +138,7 @@ container hero li.btn-outline {
    color:#006fb8;
  }
 header .hero {
-	background: #f2f2f2;
+	background-image: linear-gradient(-45deg, #ECE9E6, #fff);
    text-align: left;
    display:block;
    position: relative;
@@ -160,20 +160,379 @@ header .hero {
 
 .image {
     width: 100%;
+	
     
 }
 
-.heroq {
-	display: inline;
-	text-decoration: none;
+/* BENEFITS */
+ .benefits {
+   text-align: center;
+   display:block;
+   position:relative;
+ }
+ .benefits ul {
+   margin: 0 auto;
+   padding:4em 0;
+ }
+ .benefits ul li {
+   list-style-type: none;
+   display: inline-block;
+ }
+ .benefits i {
+   color:#006fb8;
+   font-size:48px;
+   margin:0;
+   vertical-align: middle;
+ }
+ .benefits h2 {
+   color:#434345;
+	 font-weight: bold;
+ }
+.benefits h1 {
+	padding-bottom: 20px;
 }
 
+/*features*/
+.featuresone h1{
+	
+text-align: center;
+}
+
+.featuresone p{
+
+text-align: center;
+	padding-bottom: 20px;
+}
+
+.featuresone h2 {
+   color:#434345;
+	 font-weight: bold;
+	text-align: center;
+	vertical-align: middle
+ }
+
+.featurestwo p{
+
+text-align: center;
+	padding-bottom: 20px;
+	vertical-align: middle
+}
+
+.featurestwo {
+	background-color: #f2f2f2;
+	
+}
+
+.featurestwo h2 {
+	vertical-align: middle
+   color:#434345;
+	 font-weight: bold;
+	text-align: center;
+	padding-top: 60px;
+ }
+
+.featuresthree p{
+	
+
+text-align: center;
+	padding-bottom: 20px;
+	vertical-align: middle
+}
+
+.featuresthree h2 {
+   color:#434345;
+	 font-weight: bold;
+	text-align: center;
+ }
 @media (min-width: 768px) {
    .container {
      width: 750px;
    }
  }
- @media (min-width: 992px) {
+
+.divider {
+	border-color:#CDCDCD;
+    border-style: solid;
+    border-width: 0 0 1px;
+    text-align:center;
+    overflow: visable;
+}
+
+.testimonial{
+	background-color:#006fb8;
+	 background-size:cover;
+   text-align: center;
+   padding:4em 0;
+}
+
+.testimonial blockquote{
+	color:#fff;
+	text-align: center;
+}
+
+.testimonial image {
+	align-content: center;
+}
+
+.parent  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+/* pricing*/
+
+.pricing .container
+
+{
+	background-size:cover;
+   text-align: center;
+   padding:4em 0;
+}
+
+.pricing ul {
+   margin:0 auto;
+   padding:2em 0;
+	padding-top:0px;
+	align-content: center;
+	
+ }
+ .pricing ul li {
+   list-style-type: none;
+	 line-height:40px;
+	 
+ }
+
+.colone {
+	border: 1px solid #bababa;
+	padding:0px 15px 50px;
+	text-align: center;
+	border-top: 10px solid #434345;
+	border-radius: 10px;
+	width: 270px;
+   position: relative;
+   margin-top: 25px;
+
+}
+
+.colone:hover
+	{box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+    transition: all 200ms ease-out;
+	}
+
+.colone h2{
+	font-weight: 100;
+	color: #006fb8;
+	font-size: 40px;
+}
+
+.colone h1{
+	font-size:80px;
+   font-weight: normal;
+   margin:10px;
+   color:#434345;
+}
+
+.coltwo h1{
+	font-size:80px;
+   font-weight: normal;
+   margin:10px;
+   color:#434345;
+}
+
+.coltwo h2{
+	font-weight: 100;
+	color: #006fb8;
+	font-size: 40px;
+}
+
+.coltwo {
+	border: 1px solid #bababa;
+	padding:0px 15px 50px;
+	text-align: center;
+	border-top: 10px solid #006fb8;
+	border-radius: 10px;
+	width: 270px;
+   position: relative;
+   margin-top: 25px;
+	
+
+}
+
+.coltwo:hover
+	{box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+    transition: all 200ms ease-out;
+	}
+
+.month{
+	font-size: 16px;
+	
+
+}
+ 
+.sign{
+	font-size:16px;
+  
+}
+
+.signup{
+	color:#fff;
+	text-decoration: none;
+   padding:10px 50px;
+   width: 150px;
+  border-radius: 22px;
+  background: #e0a949;
+	text-align: center;
+	margin-bottom: 20px;
+
+}
+
+.freetrial .container
+
+{
+	background-size:cover;
+   text-align: center;
+   padding:4em 0;
+}
+
+.freetrial h2
+{
+	color: #006fb8;
+}
+
+.freetrial ul li
+{list-style: none;
+margin-top: 40px;}
+
+.freetrial a:link
+{text-decoration:none;}
+
+/*footer*/
+
+
+footer {
+   background-color: #434345;
+   color: #FFFFFF;
+   position: relative;
+   overflow: hidden;
+   z-index: 0;
+ }
+
+footer h2{
+	color: #fff;
+	text-align: center;
+}
+ footer p, footer nav ul {
+   font-size:12px;
+   font-weight:100;
+   text-align: center;
+   margin: 10px auto 0;
+ }
+ footer nav ul li {
+   list-style-type: none;
+	 text-align: center;
+	 line-height: 30px;
+   
+ }
+ footer nav ul li a {
+   color:#FFFFFF;
+   text-decoration: none;
+ }
+ footer .right-footer-block {
+   background-color: transparent;
+ }
+ footer .logo{
+   padding: .7em 0;
+   margin: 0 auto;
+   display: block;
+ }
+
+.last{
+	list-style-type: none;
+	 text-align: center;
+	font-size:12px;
+	 
+	
+}
+
+/* Content */
+.content {
+    padding-top: 30px;
+	margin-bottom: 45px;
+	align-content: center;
+}
+
+/* Testimonials */
+.testimonials blockquote {
+    background: #f2f2f2 none repeat scroll 0 0;
+    border: medium none;
+    color: #434345;
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 15px;
+    position: relative;
+}
+.testimonials blockquote::before {
+    width: 0; 
+    height: 0;
+	right: 0;
+	bottom: 0;
+	content: " "; 
+	display: block; 
+	position: absolute;
+    border-bottom: 20px solid #fff;    
+	border-right: 0 solid transparent;
+	border-left: 15px solid transparent;
+	border-left-style: inset; /*FF fixes*/
+	border-bottom-style: inset; /*FF fixes*/
+}
+.testimonials blockquote::after {
+    width: 0;
+    height: 0;
+    right: 0;
+    bottom: 0;
+    content: " ";
+    display: block;
+    position: absolute;
+    border-style: solid;
+    border-width: 20px 20px 0 0;
+    border-color: #006fb8 transparent transparent transparent;
+}
+.testimonials .carousel-info img {
+    border: 1px solid #f5f5f5;
+    border-radius: 150px !important;
+    height: 75px;
+    padding: 3px;
+    width: 75px;
+}
+.testimonials .carousel-info {
+	text-align: center;
+    overflow: hidden;
+}
+.testimonials .carousel-info img {
+    margin-right: 15px;
+}
+.testimonials .carousel-info span {
+    display: block;
+	
+}
+.testimonials span.testimonials-name {
+    color: #006fb8;
+    font-size: 24px;
+    font-weight: 300;
+    margin: 23px 0 7px;
+}
+.testimonials span.testimonials-post {
+    color: #434345;
+    font-size: 12px;
+}
+
+@media (min-width: 992px) {
    .container {
      width: 970px;
    }
