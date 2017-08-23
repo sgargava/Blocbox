@@ -582,7 +582,7 @@ footer h2{
 }
 @media screen and (min-width: 1600px) {
   .container {
-    width: 1570px;
+    widssth: 1570px;
   }
 }
 @media screen and (min-width: 1900px) {
