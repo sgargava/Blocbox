@@ -609,6 +609,18 @@ margin: auto;
 }
 }
 
+@media (max-width:680px){
+	.signin {
+		display:none;
+}
+	.btn-outline {
+		display:none;
+}
+	}
+
+
+
+
 
 
 
